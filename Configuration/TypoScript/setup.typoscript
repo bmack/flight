@@ -1,0 +1,11 @@
+page = FLUIDPAGE
+page.format = html
+page.favicon = {$assets.favicon}
+page.paths {
+    layoutRootPaths.0 = EXT:flight/Resources/Private/Templates/Pages/Layouts/
+    layoutRootPaths.100 = {$paths.pages.layouts}
+    partialRootPaths.0 = EXT:flight/Resources/Private/Templates/Pages/Partials/
+    partialRootPaths.100 = {$paths.pages.partials}
+    templateRootPaths.0 = EXT:flight/Resources/Private/Templates/Pages/
+    templateRootPaths.100 = {$paths.pages.templates}
+}

@@ -1,0 +1,19 @@
+{
+	"name": "bmack/flight",
+	"type": "typo3-cms-extension",
+	"description": "Flight - Fluid everywhere in TYPO3 Frontend",
+	"homepage": "https://github.com/bmack/flight",
+	"license": "GPL-2.0+",
+	"keywords": ["TYPO3 CMS", "Integrators", "Site Extension", "Fluid", "Site Package", "TypoScript"],
+	"require": {
+		"typo3/cms-core": "^8.7 || ^9.0"
+	},
+	"replace": {
+		"flight": "self.version"
+	},
+	"autoload": {
+		"psr-4": {
+			"B13\\Flight\\": "Classes"
+		}
+	}
+}

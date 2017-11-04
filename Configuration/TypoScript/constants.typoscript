@@ -1,0 +1,11 @@
+assets {
+    favicon = EXT:flight/Resources/Public/Icons/Extension.gif
+}
+paths {
+    pages.layouts = EXT:flight/Resources/Private/Templates/Pages/Layouts/
+    pages.partials = EXT:flight/Resources/Private/Templates/Pages/Partials/
+    pages.templates = EXT:flight/Resources/Private/Templates/Pages/
+    content.layouts = EXT:flight/Resources/Private/Templates/ContentElements/Layouts/
+    content.partials = EXT:flight/Resources/Private/Templates/ContentElements/Partials/
+    content.templates = EXT:flight/Resources/Private/Templates/ContentElements/
+}
